@@ -32,14 +32,44 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: leaner
  }
 
+ body {
+    display: grid;
+    grid-template-areas: 
+      'header header'
+      'nav     img'
+      'footer footer';
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
+    grid-template-rows: 150px 1fr 100px;
+    row-gap: 40px;
+    justify-content: center;
+ }
+
  
 /*==========================
 
     Header Styling
 
 ==========================*/
+.header {
+    grid-area: header;
+    display: grid;
+    align-items: center;
+    background-color: var(--primary);
+}
 
- h1 {
-     font-size: 72px;
-     color: var(--primary);
- }
+.header__logo {
+    font-size: 60px;
+    color: var(--white);
+    text-decoration: none;
+    justify-items: left;
+     
+}
+
+.header__link {
+    font-size: 48px;
+    color: var(--white);
+    text-decoration: none;
+    justify-items: right;
+     
+}
