@@ -1,0 +1,45 @@
+/*==========================
+
+    Universal Styling
+
+==========================*/
+
+:root {
+    --primary: #7b1d5f;
+    --highlight: #f395d7;
+    --shadow: #49002d;
+    --secondary: #2a491c;
+    --secondary-highlight: #86a578;
+    --secondary-shadow: #0e2d00;
+    --primary-gray: #9e9e9a;
+    --light-gray: #c6c6c2;
+    --dark-gray: #444440;
+    --white: hsl(216, 100%, 95%);
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: leaner;
+    src: url(../fonts/leaner-bold.otf);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: leaner
+ }
+
+ 
+/*==========================
+
+    Header Styling
+
+==========================*/
+
+ h1 {
+     font-size: 72px;
+     color: var(--primary);
+ }
