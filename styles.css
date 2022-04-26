@@ -142,6 +142,46 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     padding: 20px;
   }
 
+
+/*==========================
+
+  Books Styling
+
+==========================*/
+
+.book_card__container {
+    grid-area: main;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 10px;
+    row-gap: 40px;;
+    justify-self: left;
+    justify-items: center;
+  }
+  
+.book_card {
+    max-width: 300px;
+    box-shadow: var(--gray) 4px 4px 10px 2px;
+    border-radius: 3px;
+  }
+  
+.book_card__img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;;
+  }
+  
+.book_card__title {
+    font-size: 1.5rem;
+    margin: 20px;
+
+  }  
+
+.book_card__txt {
+    padding: 20px;
+    text-align: center;
+  }
+
 /*==========================
 
   iPad Media Query Styling
