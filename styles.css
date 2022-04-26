@@ -114,32 +114,34 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .season_card__container {
     grid-area: main;
     width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    column-gap: 10px;
-    justify-self: left;
-    justify-items: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: top;
   }
   
 .season_card {
-    max-width: 500px;
-    box-shadow: var(--gray) 4px 4px 10px 2px;
-    border-radius: 3px;
+    max-width: 600px;
   }
   
 .season_card__img {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;;
+    max-width: 300px;
+    border-radius: 5px;
+    margin: 10px 20px 0 0;
+    box-shadow: 3px 3px 10px grey;
   }
   
 .season_card__title {
-    font-size: 1.5rem;
-    margin: 20px;
-
+    font-size: 2rem;
+    margin: 10px;
+    text-decoration: underline;
   }  
 
-.season_card__txt {
-    padding: 20px;
+.season_card__text {
+    list-style-type: none;
+    padding: 10px;
+    font-size: .75rem;
+    line-height: 250%;
   }
 
 
@@ -154,32 +156,32 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    column-gap: 10px;
+    column-gap: 20px;
     row-gap: 40px;;
     justify-self: left;
     justify-items: center;
   }
   
 .book_card {
-    max-width: 300px;
-    box-shadow: var(--gray) 4px 4px 10px 2px;
-    border-radius: 3px;
+    max-width: 500px;
   }
   
 .book_card__img {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;;
+    max-width: 300px;
+    border-radius: 5px;
+    margin: 10px 20px 0 0;
+    box-shadow: 3px 3px 10px grey;
   }
   
 .book_card__title {
-    font-size: 1.5rem;
-    margin: 20px;
-
+    font-size: 1.25rem;
+    margin-top: 10px;
+    padding: 0, 10px;
   }  
 
-.book_card__txt {
-    padding: 20px;
-    text-align: center;
+.book_card__text {
+    font-size: 1.25rem;
+    margin: 0px;
   }
 
 /*==========================
