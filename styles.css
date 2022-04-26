@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     min-width: 200px;
     justify-items: center;
     padding: 12px 0 24px;
+    border-radius: 10px;
   }
 
 .nav__link {
@@ -103,6 +104,28 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .nav__link--active {
   box-shadow: inset var(--highlight) 200px 0px 0px 1px;
   padding: 0 70px;
+}
+
+/*==========================
+
+    Button Styling
+
+==========================*/
+
+.nav__button {
+    background-color: var(--secondary);
+    color: var(--white);
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 75px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    display: grid;
+    grid-area: nav;
+    justify-self: center;
+    align-self: center;
 }
 
 /*==========================
@@ -144,6 +167,29 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     line-height: 250%;
   }
 
+
+/*==========================
+
+  Characters Styling
+
+==========================*/
+
+.hero__container {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__img {
+    width: 95%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    margin: 10px 20px 0 0;
+    box-shadow: 3px 3px 10px grey;
+}
 
 /*==========================
 
