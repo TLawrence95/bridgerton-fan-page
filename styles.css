@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
 
 /*==========================
 
-  Homepage Styling
+  episodespage Styling
 
 ==========================*/
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
 
 ==========================*/
 
-  .home_s1__container {
+.episodes_s1__container {
     grid-area: hero;
     width: 90%;
     display: grid;
@@ -194,31 +194,31 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     justify-items: center;
   }
   
-.home_s1 {
+.episodes_s1 {
     max-width: 600px;
   }
   
-.home_s1__img {
+.episodes_s1__img {
     max-width: 600px;
     border-radius: 5px;
     margin: 0px 20px 0 0;
     box-shadow: 3px 3px 10px grey;
   }
 
-.home_s1__title {
+.episodes_s1__title {
     font-size: 2rem;
     margin: 10px;
     text-decoration: underline;
   }  
 
-.home_s1__text {
+.episodes_s1__text {
     list-style-type: none;
     padding: 10px;
     font-size: .75rem;
     line-height: 250%;
   }
 
-.home_s2__container {
+.episodes_s2__container {
     grid-area: main;
     width: 90%;
     display: grid;
@@ -229,24 +229,24 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     justify-items: center;
   }
   
-.home_s2 {
+.episodes_s2 {
     max-width: 600px;
   }
   
-.home_s2__img {
+.episodes_s2__img {
     max-width: 600px;
     border-radius: 5px;
     margin: 0px 20px 0 0;
     box-shadow: 3px 3px 10px grey;
   }
 
-.home_s2__title {
+.episodes_s2__title {
     font-size: 2rem;
     margin: 10px;
     text-decoration: underline;
   }  
 
-.home_s2__text {
+.episodes_s2__text {
     list-style-type: none;
     padding: 10px;
     font-size: .75rem;
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
         'main'
         'footer';
       grid-template-columns: 1fr;
-      grid-template-rows: 100px 100px 1fr auto 100px;
+      grid-template-rows: 100px 100px auto auto auto;
       justify-content: center;
     }
   
@@ -401,6 +401,13 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     }
     .nav__link {
       text-decoration: none;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        grid-area: footer;
     }
   }
   
@@ -422,7 +429,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
       'main'
       'footer';
       grid-template-columns: 1fr;
-      grid-template-rows: 80px 100px 1fr auto 100px;
+      grid-template-rows: 80px 100px auto auto auto;
       justify-content: center;
     }
   
@@ -437,5 +444,17 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     .nav__link {
       font-size: 1rem;
       text-decoration: none;
+    }
+
+    .episodes_s1__container, .episodes_s2__container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        grid-area: footer;
     }
   }
