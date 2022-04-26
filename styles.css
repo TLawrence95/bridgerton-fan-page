@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
 
 ==========================*/
 
-.season_card__container {
+.home_card__container {
     grid-area: hero;
     width: 90%;
     display: flex;
@@ -153,31 +153,31 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     align-items: top;
   }
   
-.season_card {
-    max-width: 600px;
+.home_card {
+    min-width: 300px;
   }
   
-.season_card__img {
-    max-width: 300px;
+.home_card__img {
+    min-width: 300px;
     border-radius: 5px;
     margin: 10px 20px 0 0;
     box-shadow: 3px 3px 10px grey;
   }
   
-.season_card__title {
+.home__title {
     font-size: 2rem;
     margin: 10px;
     text-decoration: underline;
   }  
 
-.season_card__text {
+.home_card__text {
     list-style-type: none;
     padding: 10px;
     font-size: .75rem;
     line-height: 250%;
   }
 
-  /*==========================
+/*==========================
 
   Episodes Styling
 
@@ -444,6 +444,11 @@ h1, h2, h3, h4, h5, h6, p, a, li, footer {
     .nav__link {
       font-size: 1rem;
       text-decoration: none;
+    }
+
+    .home_card__container {
+        width: 100%;
+        align-items: center;
     }
 
     .episodes_s1__container, .episodes_s2__container {
