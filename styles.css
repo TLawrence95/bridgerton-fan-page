@@ -28,7 +28,7 @@
     src: "../fonts/leaner-bold.otf";
 }
 
-h1, h2, h3, h4, h5, h6, p, a, li {
+h1, h2, h3, h4, h5, h6, p, a, li, footer {
     font-family: leaner;
     font-size: 1.2rem;
     margin: 0;
@@ -229,6 +229,29 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     font-size: 1.25rem;
     margin: 0px;
   }
+
+/*==========================
+
+  Footer Styling
+
+==========================*/
+
+.footer {
+    grid-area: footer;
+    display: grid;
+    margin-top: auto;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 15px 0;
+    color: var(--white);
+    font-size: 1rem;
+  }
+
+    
+    align-items: center;
+    justify-items: center;
+    background-color: var(--primary);
+    color: var(--white);
 
 /*==========================
 
