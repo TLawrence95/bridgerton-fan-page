@@ -24,4 +24,22 @@ Mockup - Episodes:
 <img src="images/wireframes/mk-ip-episodes.jpg">
 <br>
 <img src="images/wireframes/mk-dk-episodes.jpg">
+<br>
+<br>
+Wireframe - Characters: 
+<br>
+<img src="images/wireframes/wf-ph-characters.jpg">
+<br>
+<img src="images/wireframes/wf-ip-characters.jpg">
+<br>
+<img src="images/wireframes/wf-dk-characters.jpg">
+<br>
+<br>
+Mockup - Characters: 
+<br>
+<img src="images/wireframes/mk-ph-characters.jpg">
+<br>
+<img src="images/wireframes/mk-ip-characters.jpg">
+<br>
+<img src="images/wireframes/mk-dk-characters.jpg">
 
